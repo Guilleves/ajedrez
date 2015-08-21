@@ -1,30 +1,28 @@
 package entidades;
 
 public abstract class Trebejo{
-	private boolean estado, color;
-	private int id;
+	private int posX, posY;
+	private String tipo;
 	
 	
 	//Get-Set
-	public boolean isEstado() {
-		return estado;
+	public String getTipo() {
+		return tipo;
 	}
-	public void setEstado(boolean estado) {
-		this.estado = estado;
+	public void setTipo(String tipo) {
+		this.tipo = tipo;
 	}
-	public boolean isColor() {
-		return color;
+	public int getPosX() {
+		return posX;
 	}
-	public void setColor(boolean color) {
-		this.color = color;
+	public void setPosX(int posX) {
+		this.posX = posX;
 	}
-	public int getId() {
-		return id;
+	public int getPosY() {
+		return posY;
 	}
-	public void setId(int id) {
-		this.id = id;
+	public void setPosY(int posY) {
+		this.posY = posY;
 	}
-		
-
 }
 

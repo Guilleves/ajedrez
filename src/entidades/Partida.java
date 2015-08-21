@@ -1,7 +1,7 @@
 package entidades;
 
 public class Partida {
-	private Trebejo posicion[][];
+	
 	private Jugador blanco, negro;
 	
 	//Get-Set

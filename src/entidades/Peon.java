@@ -1,16 +1,16 @@
 package entidades;
 
 public class Peon extends Trebejo {
-	private boolean moviouno;
+	private boolean movioUno;
 
 	
 	//Get-Set
-	public boolean isMoviouno() {
-		return moviouno;
+	public boolean getMovioUno() {
+		return movioUno;
 	}
 
-	public void setMoviouno(boolean moviouno) {
-		this.moviouno = moviouno;
+	public void setMovioUno(boolean movioUno) {
+		this.movioUno = movioUno;
 	}
 		
 	
